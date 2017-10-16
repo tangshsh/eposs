@@ -1,0 +1,75 @@
+body{
+	background-color: #FFFFFF;
+	background-size:cover;
+	font-weight: 500;
+	font-size: 1.05em;
+	font-family: "Microsoft YaHei","Segoe UI", "Lucida Grande", Helvetica, Arial,sans-serif;
+	
+	/*background: #FFF5EE url('smiley.gif') no-repeat top left/5px 5px;
+    -webkit-animation: mymove 6s infinite; /* Chrome, Safari, Opera 
+    animation: mymove 6s infinite;*/
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {background:#40a9ff bottom right/50px 50px;}
+}
+
+
+#time{
+	position: relative;
+	float:right;
+	width:200px;
+	height:204.55px;
+	margin:0 125px;
+	z-index: 99;
+}
+
+#login{
+	position: relative;
+	top: 100px;
+	border-radius: 6px;
+	margin:100px 0px 50px 785px;
+	border:3px solid #F5F5F5;
+	background-color:rgba(255,255,255,0.3);
+	width:308px;
+	height:420px;
+	/*background: transparent; /*±³¾°Í¸Ã÷*/
+    border: 2px solid rgba(255,255,255,0.3); /*±ß¿ò°ëÍ¸Ã÷*/
+    z-index: 99;
+}
+
+
+input{
+	text-indent: 2em;
+	position: relative;
+	top: 30px;
+	-moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border-radius: 6px;
+    border:1px solid	#808080;
+	width:275px;
+	height:30px;
+	margin:10px 10px;
+	z-index: 99;
+}
+
+#sub{
+	text-indent: 0em;
+	position: relative;
+	top: 30px;
+	color:#000;
+	font-weight: bold;
+	border:1px solid #808080;
+	font-size:19px;
+	z-index: 99;
+}
+
+#p2{
+	position: relative;
+	top: 30px;
+	font-size:11px;
+	color:	#fff;
+	text-align:center;
+	z-index: 99;
+}
